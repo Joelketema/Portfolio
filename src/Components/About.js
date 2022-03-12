@@ -13,7 +13,7 @@ const About = () => {
             <div className="description">
                 <div className="aboutMe">
                    <h1>Hey! <span className="name">My Name is Eyuel Ketema</span></h1>
-                    <p>I am a Software Enginner/Web Developer</p>
+                    <p>I am a Software Enginner/Web Developer from Addis Ababa, Ethiopia</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus recusandae autem. Voluptatibus, animi debitis?</p>   
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus recusandae autem. Voluptatibus, animi debitis?</p>   
                 </div>
