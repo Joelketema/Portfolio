@@ -1,0 +1,69 @@
+.email
+{
+
+    display: flex;
+    left: 45%;
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email > div >input
+{
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 15px;
+    font-size: medium;
+    font-family: poppins;
+}
+
+.email > div> input:focus,.email >textarea:focus
+{
+    outline: 1px solid var(--color-second);
+}
+
+.email > input:hover
+{
+    transform: scale(1);
+} 
+
+.email > input[type="submit"]{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    transition: all ease 300ms;
+    border: 0.5px solid white;
+    background: orangered;
+    font-family: poppins;
+    font-size: medium;
+    cursor: pointer;
+    border-radius:25px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.email > input[type="submit"]:hover{
+    color: #fff;
+    border:0.5px solid white;
+    background-color: var(--color-third);
+}
+.email > textarea
+{
+    border-radius: 15px;
+    text-align: center;
+    font-family: poppins;
+    font-size: medium;
+}
+
+@media(min-width:200px) and (max-width:613px)
+{
+    form{
+        margin-left: 100px;
+    }
+
+    textarea{
+        width: 100%;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+}

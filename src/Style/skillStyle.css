@@ -1,0 +1,70 @@
+.choiceBtns button{
+    border: 0;
+    padding: 15px;
+    background-color:var(--color-third);
+    color: white;
+    font-family: poppins;
+    margin-top: 20px;
+    border-radius: 15px;
+    min-width: 200px;
+    box-shadow: 2px 2px 5px grey;
+
+}
+
+.choiceBtns{
+    display: flex;
+    margin-left: 50px;
+}
+
+.choiceBtns div:last-child{
+    margin-bottom: 80px;
+}
+
+.choiceBtns button.active{
+    background-color: var(--color-second);
+}
+
+#card{
+    text-align: center;
+}
+#cardImage{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.imgBorder{
+
+    min-height: 250px;
+    overflow: hidden;
+}
+
+    .topPart{
+        text-align: center;
+    }
+
+#card{
+    transform: translateY(200px);
+}
+#card.active{
+    transform: translateY(0px);
+    transition: all ease 500ms;
+}
+
+@media(min-width:200px) and (max-width:599px)
+{
+    #prof{
+        margin-left: 30px;
+    }
+
+    .choiceBtns button{
+        min-width: 150px;
+    }
+}
+
+@media(min-width:600px)
+{
+    .choiceBtns button{
+        margin-left: 80px;
+        cursor: pointer;
+    }
+}

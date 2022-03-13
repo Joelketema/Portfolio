@@ -1,0 +1,72 @@
+:root{
+    --color-first: #5bccf6;
+    /* --color-second:#fcde67; */
+    --color-second:orangered;
+    --color-third:#030e12;
+}
+
+body{
+    font-family: poppins;
+}
+
+.Link{
+  text-decoration:none;
+}
+.App{
+    display: flex;
+}
+
+.navigation{
+   position: absolute;
+}
+
+.wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 6%;
+    top: 10%;
+    width: 90%;
+
+}
+
+a{
+  color:black;
+}
+a:active{
+  color:black;
+}
+#cert .imageContainer img{
+ width:200%;
+ height:100%;
+ margin-left:-50px;
+}
+
+#cert{
+  gap:150px;
+}
+#cert .projectCard{
+  width:100%;
+  height:10%;
+
+}
+
+@media(min-width:200px) and (max-width:569px)
+{
+  #cert .projectCard{
+    width:70%;
+  }
+}
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#fff
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--color-second);
+  }
