@@ -20,7 +20,7 @@ const Email = () => {
         notifyRef.current.style.color = "green"
         setTimeout(() => {
             notifyRef.current.innerHTML = ""
-        }, 500);
+        }, 1500);
         formRef.current.reset();
     };
 
