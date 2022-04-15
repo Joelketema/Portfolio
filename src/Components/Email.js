@@ -5,6 +5,7 @@ import '../Style/projectStyle.css'
 const Email = () => {
 
     const formRef = useRef(null);
+    const notifyRef = useRef(null);
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -15,13 +16,19 @@ const Email = () => {
         }, (error) => {
             console.log(error.text);
         });
+        notifyRef.current.innerHTML = "Thank you for Reaching out to me! I will get back at you as soon as possible.."
+        notifyRef.current.style.color = "green"
+        setTimeout(() => {
+            notifyRef.current.innerHTML = ""
+        }, 500);
         formRef.current.reset();
     };
 
   
     return (  
     
-        <form action="submit"  ref={formRef} onSubmit={sendEmail}>
+        <form action="submit" ref={formRef} onSubmit={sendEmail}>
+        <div ref={notifyRef} className='notify'></div>
         <div className="email">
                 <h2>Email Me for <span className="name"> any comments or Jobs!</span></h2>
                 <div className="userinputs">
