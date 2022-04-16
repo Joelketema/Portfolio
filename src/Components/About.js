@@ -1,7 +1,7 @@
 
 import laptop from "../Resources/laptop.svg"
 import '../Style/about.css'
-
+import { Link } from "react-router-dom"
 const About = () => {
 
     return (
@@ -21,9 +21,9 @@ const About = () => {
                 <div className="socials">
                     
                    <a href="https://github.com/Joelketema" target="_blank" rel="noreferrer" ><i className="fab fa-github"></i></a>
-                   <i className="fab fa-facebook"></i>
+                   <Link to={"/Contact"}><i className="fab fa-google"></i></Link>
                    <a href="https://linkedin.com/in/eyuel-ketema-b0225921a" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
-                    <i className="fab fa-twitter"></i>
+                   <a href={'https://t.me/therealpetergriffin'} target="_blank"><i className="fab fa-telegram"></i></a> 
                  </div>
             
             </div>
