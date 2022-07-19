@@ -46,7 +46,7 @@ const Projects = () => {
             Name: "Protfolio Page",
             image: port,
             link:"https://github.com/Joelketema/Project-2BitZ-Responsive",
-            description:"My Portfolio site made with React"
+            description:"My Portfolio site made with React from scratch"
         },
     ]
     return (
