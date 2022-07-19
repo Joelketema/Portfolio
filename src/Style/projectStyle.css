@@ -19,14 +19,17 @@
 }
 
 .restContainer{
-    min-height:150px;
-    max-height:150px;
+    min-height:fit-content;
+    padding:10px 0px;
+    
 }
 
 .restContainer .pholder{
 
+    min-height: 50px;
     max-height:100px;
     text-align:center;
+    margin-top: -10px;
 }
 
 .restContainer .bholder{

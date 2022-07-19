@@ -2,6 +2,7 @@
 const Svg = () => {
 
   const navEventHandler = () => {
+    
     const arrowS = document.querySelector('#arrow')
     const navS= document.querySelector('.navv')
     

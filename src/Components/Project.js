@@ -16,7 +16,7 @@ console.log(name)
                 <p>{description}</p></div>
 
                 <div className="bholder">
-                    <button><a href={git} target={tar}>Check it on Github</a></button>
+                    <button><a href={git} target={tar}>Check it</a></button>
                 </div>
             </div>
         </div>
